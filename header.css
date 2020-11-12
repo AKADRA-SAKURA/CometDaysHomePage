@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* Curl effects – curls corners on hover */
+.paper-curl:before, .paper-curl:after,
+.paper-curl-right:before,
+.paper-curl-right:after {
+  bottom: 12px;
+  width: 50%;
+  height: 55%;
+  max-width: 200px;
+  max-height: 100px;
+  -webkit-box-shadow: 1px 8px 12px rgba(31, 31, 31, 0.6);
+          box-shadow: 1px 8px 12px rgba(31, 31, 31, 0.6);
+}
+
+.paper-curl:before,
+.paper-curl-right:before {
+  left: 10px;
+}
+
+.paper-curl:after,
+.paper-curl-right:after {
+  right: 10px;
+}
+
+.paper-curl:hover:before, .paper-curl:hover:after,
+.paper-curl-right:hover:before,
+.paper-curl-right:hover:after {
+  -webkit-box-shadow: 1px 8px 12px rgba(31, 31, 31, 0.8);
+          box-shadow: 1px 8px 12px rgba(31, 31, 31, 0.8);
+}
+
+.paper-curl:hover:before,
+.paper-curl-right:hover:before {
+  -webkit-transform: skew(-8deg) rotate(-3deg);
+          transform: skew(-8deg) rotate(-3deg);
+}
+
+.paper-curl:hover:after,
+.paper-curl-right:hover:after {
+  -webkit-transform: skew(8deg) rotate(3deg);
+          transform: skew(8deg) rotate(3deg);
+}
+
+.paper-curl:hover {
+  border-radius: 0 0 40% 40% / 0 0 30% 30%;
+}
+
+.paper-curl-right:before {
+  display: none;
+}
+
+.paper-curl-right:hover {
+  border-radius: 0 0 40% 0 / 0 0 30% 0;
+}
+/*# sourceMappingURL=header.css.map */

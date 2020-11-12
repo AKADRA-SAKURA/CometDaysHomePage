@@ -1,0 +1,37 @@
+main{
+    font-size: 20px;
+}
+.shounen{
+    display: flex;
+    flex-direction: row;
+    columns: 2;
+    column-rule: 1px solid #cdcdcd;
+    column-gap: 2em;  
+}
+.shounen-shoukai{
+    float: left;
+    flex-direction: row;
+}
+.slider{
+    flex-direction: row;
+}
+.anoko{
+    display: flex;
+    flex-direction: row;
+    columns: 2;
+    column-rule: 1px solid #cdcdcd;
+    column-gap: 2em;
+}
+.anoko-shoukai{
+    float: left;
+}
+.tsurukichi{
+    display: flex;
+    flex-direction: row;
+    columns: 2;
+    column-rule: 1px solid #cdcdcd;
+    column-gap: 2em;  
+}
+.tsurukichi-shoukai{
+    float: left;
+}

@@ -1,0 +1,66 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-family: 'Makinas';
+    font-size: 16px;
+}
+
+body { 
+    padding-top: 60px;
+    background-image : url(photo/background.png);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Makinas';
+    src: url("font/Makinas-Scrap-5.otf");
+}
+
+main{
+    margin: 0% 8% 0% 8%;
+}
+
+#nav_targets{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.twitter{
+    text-align: right;
+    margin-right: 5px;
+}
+
+
+.contents{
+    width: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.top-cross{
+    margin-left: 5px;
+    width: 100%;
+    padding: 0.5em 1em;
+    height: fit-content;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;/*文字色*/
+    border: solid 2px blue;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    float: left;
+}
+
+.top-shoot{
+    margin-left: 5px;
+    width: 100%;
+    padding: 0.5em 1em;
+    height: fit-content;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;/*文字色*/
+    border: solid 2px blue;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    float: left;
+}
+

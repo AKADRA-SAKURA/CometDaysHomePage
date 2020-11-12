@@ -1,0 +1,21 @@
+.member{
+    flex-direction: column;
+    display: flex;
+}
+
+.now-member{
+    flex-direction: row;
+}
+
+.past-member{
+    flex-direction: row;
+}
+
+.member-container{
+    border: 1px solid;
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}

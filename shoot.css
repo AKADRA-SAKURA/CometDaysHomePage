@@ -1,0 +1,44 @@
+.title{
+    text-align: center;
+}
+
+.midashi{
+    font-size: 30px;
+}
+
+.shoukai1 {
+    flex-direction: row;
+/*     display: flex; */
+    columns: 2;
+    column-rule: 1px solid #cdcdcd;
+    column-gap: 2em;
+}
+
+.shoukai2{
+    flex-direction: row;
+    /*     display: flex; */
+    columns: 2;
+    column-rule: 1px solid #cdcdcd;
+    column-gap: 2em;   
+}
+
+img[src$="photo/shootphoto.png"]{
+    text-align: left;
+    margin: 0% 5px 0% 5px;
+    float: left;
+    flex-direction: row;
+}
+
+.shoukai-bun1{
+    float: left;
+    flex-direction: row;
+}
+
+.shoukai-bun2{
+    float: left;
+    flex-direction: row;
+}
+
+.movie{
+    text-align: center;
+}
