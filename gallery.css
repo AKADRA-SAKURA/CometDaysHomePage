@@ -1,0 +1,15 @@
+.gallery-container{
+    flex-direction: row;
+    display: flex;
+    columns: 5;
+}
+
+.box{
+    float: left;
+    flex-direction: row;
+    margin: 0% 5px 0% 5px;
+}
+
+.slider{
+    flex-direction: row;
+}
