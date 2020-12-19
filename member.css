@@ -5,10 +5,13 @@
 
 .now-member{
     flex-direction: row;
+    margin-bottom: 50px;
 }
 
 .past-member{
     flex-direction: row;
+    border-top: dotted 2px;
+    margin-bottom: 50px;
 }
 
 .member-container{
@@ -18,4 +21,15 @@
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
+    padding: 0.5%;
 }
+
+.name{
+    font-size: 25px;
+}
+
+hr{
+    background-color: black;
+  }
+
+

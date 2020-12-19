@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>オリガミシュートグランプリ_CometDaysチャンネル</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="shoot.css">
@@ -18,41 +19,58 @@
     <div class="title">
         <img src="photo/logo/titlelogo_shoot.png" alt="" width="70%" height="70%">
     </div>
+    <a id="what" class="midashi">どんなゲーム？</a><br>
     <div class="shoukai1">
-        <a id="what" class="midashi">どんなゲーム？</a><br>
-        <img src="photo/shootphoto.png" alt="" width="100%" height="100%">
+        <img src="photo\screenshot\ss_noda2.PNG" alt="" width="100%" height="100%">
         <div class="shoukai-bun1">
-            アイテムを拾いながらできるだけ長く飛ぶ見下ろし２Dシューティングゲーム
-            羽を取って高度を維持しながら敵を蹴散らして進もう！
-            青いアイテムで加速してもっとよい成績を狙おう！
-            たくさん飛べば大きなボスが現れるかも!?
+            アイテムを拾いながらできるだけ長く飛ぶ見下ろし２Dシューティングゲーム<br>
+            羽を取って高度を維持しながら敵を蹴散らして進もう！<br>
+            青いアイテムで加速してもっとよい成績を狙おう！<br>
+            たくさん飛べば大きなボスが現れるかも!?<br>
         </div>
     </div>
     <div class="shoukai2">
         <div class="shoukai-bun2">
-        折り紙の飛行機を出来るだけ長く飛ばす大会でより良い成績を目指そう
-        そうして頑張ったらそれだけ言い景品が手に入るぞ
-        あの子に手に入れた景品を渡して喜んでもらおう
+        折り紙の飛行機を出来るだけ長く飛ばす大会でより良い成績を目指そう<br>
+        そうして頑張ったらそれだけ言い景品が手に入るぞ<br>
+        あの子に手に入れた景品を渡して喜んでもらおう<br>
         </div>
-        <img src="photo/shootphoto.png" alt="" width="100%" height="100%">
+        <img src="photo/screenshot/story2.png" alt="" width="100%" height="100%">
     </div>
     </div>
 
     <div class="sousahouhou">
         <a id="sousa" class="midashi">操作方法</a>
-        <div class="sousa-bun">
-            方向キーで移動
-
-            スペースで攻撃（長押しも可）
-            方向キーで選択
-            ボタンで決定
-        </div>
+        <img src="photo\shoot\Shoot_setsumei.png" alt="" width="100%" height="100%">
     </div>
 
     <div class="garalley-shoot">
         <a id="garalley-game" class="midashi">ギャラリー</a><br>
-        <iframe width="727" height="409" class="movie" src="https://www.youtube.com/embed/4pU2PeGrxyE?list=PLfA6ME9FVmQKa2Vo4sS4WC9Gl7tWf_tDW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/C7XnEshBKqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="727" height="409" class="movie" src="https://www.youtube.com/embed/4pU2PeGrxyE?list=PLfA6ME9FVmQKa2Vo4sS4WC9Gl7tWf_tDW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+    </div>
+
+    <div class="swiper-container">
+        <!-- 全スライドをまとめるラッパー -->
+        <div class="swiper-wrapper">
+            <!-- 各スライド -->
+            <div class="swiper-slide"><img src="photo\screenshot\ss_noda1.PNG" alt="" width="100%" height="100%">プレイ画面１</div>
+            <div class="swiper-slide"><img src="photo\screenshot\bh_noda1.PNG" alt="" width="100%" height="100%">プレイ画面２</div>
+            <div class="swiper-slide"><img src="photo\screenshot\dd_noda1.PNG" alt="" width="100%" height="100%">プレイ画面３</div>
+            <div class="swiper-slide"><img src="photo\screenshot\ss_noda2.PNG" alt="" width="100%" height="100%">プレイ画面４</div>
+            <div class="swiper-slide"><img src="photo\screenshot\bh_noda2.PNG" alt="" width="100%" height="100%">プレイ画面５</div>
+            <div class="swiper-slide"><img src="photo\screenshot\dd_noda2.PNG" alt="" width="100%" height="100%">プレイ画面６</div>
+        </div>
+     
+        <!-- ページネーションを表示する場合 -->
+        <div class="swiper-pagination"></div>
+     
+        <!-- 前後スライドへのナビゲーションボタン(矢印)を表示する場合 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+     
+        <!-- スクロールバーを表示する場合 -->
+        <div class="swiper-scrollbar"></div>
     </div>
 
     <div class="download">
@@ -63,5 +81,55 @@
     <footer>
         <div id="footer"></div>             
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper ('.swiper-container', {
+    // オプションパラメータ(一部のみ抜粋)
+    loop: true, // 最後のスライドまで到達した場合、最初に戻らずに続けてスライド可能にするか。
+    speed: 600, // スライドが切り替わるトランジション時間(ミリ秒)。
+    slidesPerView: 1, // 何枚のスライドを表示するか
+    spaceBetween: 10, // スライド間の余白サイズ(ピクセル)
+    direction: 'horizontal', // スライド方向。 'horizontal'(水平) か 'vertical'(垂直)。effectオプションが 'slide' 以外は無効。
+    effect: 'slide', // "slide", "fade"(フェード), "cube"(キューブ回転), "coverflow"(カバーフロー) または "flip"(平面回転)
+ 
+    // スライダーの自動再生
+    // autoplay: true 　のみなら既定値での自動再生
+    autoplay: {
+      delay: 3000, // スライドが切り替わるまでの表示時間(ミリ秒)
+      stopOnLast: false, // 最後のスライドまで表示されたら自動再生を中止するか
+      disableOnInteraction: true // ユーザーのスワイプ操作を検出したら自動再生を中止するか
+    },
+ 
+    // レスポンシブ化条件
+    breakpoints: {
+      // 980ピクセル幅以下になったら
+      980: {
+        slidesPerView: 3,
+        spaceBetween: 30
+      },
+      // 640ピクセル幅以下になったら
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      }
+    },
+ 
+    // ページネーションを表示する場合
+    pagination: {
+      el: '.swiper-pagination',　 // ページネーションを表示するセレクタ
+    },
+ 
+    // 前後スライドへのナビゲーションを表示する場合
+    navigation: {
+      nextEl: '.swiper-button-next', // 次のスライドボタンのセレクタ
+      prevEl: '.swiper-button-prev', // 前のスライドボタンのセレクタ
+    },
+ 
+    // スクロールバーを表示する場合
+    scrollbar: {
+      el: '.swiper-scrollbar', // スクロールバーを表示するセレクタ
+    }
+  });
+    </script>
 </body>
 </html>

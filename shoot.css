@@ -4,9 +4,12 @@
 
 .midashi{
     font-size: 30px;
+    background-image: url(photo/shoot/button_menu.png);
+    background-size: 100% 100%;
 }
 
 .shoukai1 {
+    margin: 10px 0px 10px 0px;
     flex-direction: row;
 /*     display: flex; */
     columns: 2;
@@ -15,6 +18,7 @@
 }
 
 .shoukai2{
+    margin: 10px 0px 10px 0px;
     flex-direction: row;
     /*     display: flex; */
     columns: 2;
@@ -39,6 +43,16 @@ img[src$="photo/shootphoto.png"]{
     flex-direction: row;
 }
 
+.sousahouhou{
+    margin: 10px 0px 10px 0px;
+}
+
+
 .movie{
     text-align: center;
+}
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
 }

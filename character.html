@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="character.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
     <script src="index.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="character.js"></script>
 </head>
 <body>
@@ -20,9 +20,14 @@
     </header>
     <main>
         <div class="shounen">
-            <div class="slider">
-                <img src="photo\character\boy_shoot.png" width="300" height="300" alt="" title="オリガミシュートグランプリ">
-                <img src="photo\character\boy_dash.png" width="300" height="300" alt="" title="オリガミダッシュ">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="photo\character\boy_shoot.png" width="300" height="300" alt="" title="オリガミシュートグランプリ"></div>
+                    <div class="swiper-slide"><img src="photo\character\boy_dash.png" width="300" height="300" alt="" title="オリガミダッシュ"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
 
             <div class="shounen-shoukai">
@@ -35,11 +40,6 @@
         </div>
 
         <div class="anoko">
-            <div class="slider">
-                <img src="photo\character\girl_shoot.png" width="300" height="300" alt="" title="オリガミシュートグランプリ">
-                <img src="photo\character\girl_dash.png" width="300" height="300" alt="" title="オリガミダッシュ">
-            </div>
-
             <div class="anoko-shoukai">
                 <h2>あの子</h2>
                 <p>セミロングのカラスの濡れ羽色の髪が大人びているクールでドライな少女</p>
@@ -48,10 +48,14 @@
                 <p>少年の事は悪く思っているわけではない、むしろ好意的に思っている。</p>
                 <p>だが表に出すのは少し恥ずかしいようだ。</p>       
             </div>
+            <div class="slider">
+                <img src="photo\character\girl_shoot.png" width="300" height="300" alt="" title="オリガミシュートグランプリ">
+                <img src="photo\character\girl_dash.png" width="300" height="300" alt="" title="オリガミダッシュ">
+            </div>
         </div>
 
         <div class="tsurukichi">
-            <div class="slider">
+            <div>
                 <img src="photo\character\tsurukichi.png" width="300" height="300" alt="" title="オリガミシュートグランプリ">
             </div>
 
@@ -62,9 +66,12 @@
                 <p>少年の幼い頃に作った普通の折り鶴。</p>          
             </div>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
     </main>
     <footer>
         <div id="footer"></div>             
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
 </html>
