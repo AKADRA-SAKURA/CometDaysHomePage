@@ -6,16 +6,14 @@ h4{
     text-align: center;
 }
 
-.gallery-container{
-    flex-direction: row;
-    display: flex;
-    columns: 5;
+.swiper-container {
+    width: 200px;
+    height: 200px;
 }
 
 .box{
     float: left;
-    flex-direction: row;
-    margin: 0% 5px 0% 5px;
+    margin: 5px 5px 5px 5px;
 }
 
 .slider{
