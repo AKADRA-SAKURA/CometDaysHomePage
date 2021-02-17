@@ -20,182 +20,34 @@
     <h2>折り紙ギャラリー</h2>
     <h4>ゲームのキャラ/アイテムなどのモデルとなった折り紙作品です</h4>
     <h4>制作者 : 心葉</h4>
-        <div class="gallery-container">
-            <div class="box"> <!--カラス-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\karasu1.JPG" width="200" height="200" alt="" title="カラス１"></div>
-                        <div class="swiper-slide"><img src="photo\origami\karasu2.JPG" width="200" height="200" alt="" title="カラス２"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
 
-            <div class="box"> <!--魚-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\fish.JPG" width="200" height="200" alt="" title="魚"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
+    <div id="GalleryContainer" class="gallery-container">
+    </div>
 
-            <div class="box"> <!--コウモリ-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\koumori1.JPG" width="200" height="200" alt="" title="コウモリ１"></div>
-                        <div class="swiper-slide"><img src="photo\origami\koumori2.JPG" width="200" height="200" alt="" title="コウモリ２"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
+    <div class="box"><button id="openModal">Open modal</button></div>
 
-            <div class="box"> <!--鷹-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\taka1.JPG" width="200" height="200" alt="" title="鷹１"></div>
-                        <div class="swiper-slide"><img src="photo\origami\taka2.JPG" width="200" height="200" alt="" title="鷹２"></div>
-                        <div class="swiper-slide"><img src="photo\origami\taka3.JPG" width="200" height="200" alt="" title="鷹３"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div>
+    <!-- モーダルエリアここから -->
+        <section id="modalArea" class="modalArea">
+          <div id="modalBg" class="modalBg"></div>
+          <div class="modalWrapper">
+            <div id="modalContents" class="modalContents">
+              <h1>Here are modal contents!</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             </div>
-
-            <div class="box"> <!--トンボ-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\tonbo.JPG" width="200" height="200" alt="" title="トンボ"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div>
-                
+            <div id="closeModal" class="closeModal">
+              ×
             </div>
-
-            <div class="box"> <!--ドラゴン-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\Dragon1.JPG" width="200" height="200" alt="" title="ドラゴン"></div>
-                        <div class="swiper-slide"><img src="photo\origami\Dragon2.JPG" width="200" height="200" alt="" title="ドラゴン"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div> 
-            </div>
-
-            <div class="box"> <!--トリケラトプス-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\Triceratops1.JPG" width="200" height="200" alt="" title="トリケラトプス1"></div>
-                        <div class="swiper-slide"><img src="photo\origami\Triceratops2.JPG" width="200" height="200" alt="" title="トリケラトプス2"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div> 
-            </div>
-
-            <div class="box"> <!--機体1-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\Plane1.JPG" width="200" height="200" alt="" title="機体"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div> 
-            </div>
-
-            <div class="box"> <!--機体2-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\Plane2.JPG" width="200" height="200" alt="" title="機体2"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div> 
-            </div>
-
-            <div class="box"> <!--RAKUPA機体-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\PlaneR1.JPG" width="200" height="200" alt="" title="RAKUPA機体"></div>
-                        <div class="swiper-slide"><img src="photo\origami\PlaneR2.JPG" width="200" height="200" alt="" title="RAKUPA機体"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div> 
-            </div>
-
-            <div class="box"> <!--アイテム-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\Propeller.JPG" width="200" height="200" alt="" title="アイテム"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div> 
-            </div>
-
-            <div class="box"> <!--アイテム-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\Swirl.JPG" width="200" height="200" alt="" title="アイテム"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div> 
-            </div>
-
-            <div class="box"> <!--火山-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- 各スライド -->
-                        <div class="swiper-slide"><img src="photo\origami\Volcano1.JPG" width="200" height="200" alt="" title="火山1"></div>
-                        <div class="swiper-slide"><img src="photo\origami\Volcano2.JPG" width="200" height="200" alt="" title="火山2"></div>
-                        <div class="swiper-slide"><img src="photo\origami\Volcano3.JPG" width="200" height="200" alt="" title="火山3"></div>
-                        <div class="swiper-slide"><img src="photo\origami\Volcano4.JPG" width="200" height="200" alt="" title="火山4"></div>
-                        <div class="swiper-slide"><img src="photo\origami\Volcano5.JPG" width="200" height="200" alt="" title="火山5"></div>
-                    </div>
-                 
-                    <!-- ページネーションを表示する場合 -->
-                    <div class="swiper-pagination"></div>
-                </div> 
-            </div>
-        </div>
-
+          </div>
+        </section>
+        <!-- モーダルエリアここまで --> 
 
     </main>
     <footer>
         <div id="footer"></div>             
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="gallery.js"></script>
+    <script src="modal.js"></script>
 </body>
 </html>

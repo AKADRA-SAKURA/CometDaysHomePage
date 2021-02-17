@@ -1,3 +1,17 @@
+$(function() {
+  $.getJSON("json/gallery.json" , function(data) {
+    var
+      ulObj = $("#GalleryContainer"),
+      len = data.length,
+      boxbefore = '<div class="box"><div class="swiper-container"><div class="swiper-wrapper">',
+      boxafter = '</div><div class="swiper-pagination"></div></div></div>';
+    for(var i = 0; i < len; i++) {
+      ulObj.append($(boxbefore + '<div class="swiper-slide"><img src="' + data[i].photo1 + '" width="200" height="200" alt="" title="' +data[i].name+ '"></div>' + boxafter));
+    }
+  });
+});
+
+
 var mySwiper = new Swiper ('.swiper-container', {
     // オプションパラメータ(一部のみ抜粋)
     loop: true, // 最後のスライドまで到達した場合、最初に戻らずに続けてスライド可能にするか。
