@@ -3,89 +3,116 @@
     "id":1,
     "name":"カラス",
     "explain":"八咫烏はご存知ですか？脚が3本の神獣です。こちらのカラスを見てみましょう。脚が1本ですね。八咫烏と足して2で割るといい感じですね。冗談です。シンプルに鳥類なのが分かりますね。",
-    "photo1":"photo/origami/karasu1.JPG",
-    "photo2":"photo/origami/karasu2.JPG"
+    "photo": [
+      "photo/origami/karasu1.JPG",
+      "photo/origami/karasu2.JPG"
+    ]
   },
   { 
     "id":2,
     "name":"魚",
     "explain":"攻撃力のありそうな見た目を目指した結果、攻撃力のありそうな見た目になりました(語彙力)。剣みたいに尖った見た目しているので「太刀魚」といったところですかね(ドヤァ)。",
-    "photo1":"photo/origami/fish.JPG"
+    "photo": [
+      "photo/origami/fish.JPG"
+    ]
   },
   { 
     "id":3,
     "name":"コウモリ",
     "explain":"実はトンボの双子の構造をしています。というか折り方の半分は実は同じなのでもう双子ですね。翼は折り畳めます。",
-    "photo1":"photo/origami/koumori1.JPG",
-    "photo2":"photo/origami/koumori2.JPG"
+    "photo": [
+      "photo/origami/koumori1.JPG",
+      "photo/origami/koumori2.JPG"
+    ]
   },
   { 
     "id":4,
     "name":"鷹",
     "explain":"ドラゴンやコウモリでも翼はありましたが、鳥類の翼にしたく紙のヒダを集めて折りました。正面から見るのが一番鳥感があって好きです笑。",
-    "photo1":"photo/origami/taka1.JPG",
-    "photo2":"photo/origami/taka2.JPG",
-    "photo3":"photo/origami/taka3.JPG"
+    "photo": [
+      "photo/origami/taka1.JPG",
+      "photo/origami/taka2.JPG",
+      "photo/origami/taka3.JPG"
+    ]
   },
   { 
     "id":5,
     "name":"トンボ",
     "explain":"誰がどう見てもトンボになりました。とても嬉しいです。",
-    "photo1":"photo/origami/tonbo.JPG"
+    "photo": [
+      "photo/origami/tonbo.JPG"
+    ]
   },
   { 
     "id":6,
     "name":"ドラゴン",
     "explain":"鳥に見えないように頭をドラゴンっぽくすることでドラゴンにしようとしましたが足りなかった翼もいじりました。",
-    "photo1":"photo/origami/Dragon1.JPG",
-    "photo2":"photo/origami/Dragon2.JPG"
+    "photo": [
+      "photo/origami/Dragon1.JPG",
+      "photo/origami/Dragon2.JPG"
+    ]
+
   },
   { 
     "id":7,
     "name":"トリケラトプス",
     "explain":"トリケラトプスといえばやはり頭の三本の角が特徴的です。頭でっかちにならないように残った紙の領域でできる限り大きな体にしました笑。",
-    "photo1":"photo/origami/Triceratops1.JPG",
-    "photo2":"photo/origami/Triceratops2.JPG"
+    "photo": [
+      "photo/origami/Triceratops1.JPG",
+      "photo/origami/Triceratops2.JPG"
+    ]
   },
   { 
     "id":8,
     "name":"飛行機1",
     "explain":"鳥型の飛行機を目指しました。鳥は翼が大きいので機体は縦が短く横に長いです。",
-    "photo1":"photo/origami/Plane1.JPG"
+    "photo": [
+      "photo/origami/Plane1.JPG"
+    ]
   },
   { 
     "id":9,
     "name":"飛行機2",
     "explain":"大砲付き戦闘機型飛行機です。大砲がデカくなりすぎたなんて言ってはいけない。",
-    "photo1":"photo/origami/Plane2.JPG"
+    "photo": [
+      "photo/origami/Plane2.JPG"
+    ]
   },
   { 
     "id":10,
     "name":"飛行機R",
     "explain":"RAKUPA用の機体です。少しステルス戦闘機を意識しました。",
-    "photo1":"photo/origami/PlaneR1.JPG",
-    "photo2":"photo/origami/PlaneR2.JPG"
+    "photo": [
+      "photo/origami/PlaneR1.JPG",
+      "photo/origami/PlaneR2.JPG"
+    ]
   },
   { 
     "id":11,
     "name":"プロペラ",
     "explain":"伝承作品の手裏剣が使えそうだとすぐに頭に浮かびましたが手裏剣をそのままプロペラに採用するのは芸がないので手裏剣を埋め込んでみました。",
-    "photo1":"photo/origami/Propeller.JPG"
+    "photo": [
+      "photo/origami/Propeller.JPG"
+    ]
   },
   { 
     "id":12,
     "name":"渦",
     "explain":"この中では珍しく複数枚紙を使った作品です。回転している感じと渦の中心をどうやって表現しようかと考えたときに、穴を開けるという発想に至りました。紙に穴を開けるのも何なので紙を複数枚組み合わせました。",
-    "photo1":"photo/origami/Swirl.JPG"
+    "photo": [
+      "photo/origami/Swirl.JPG"
+    ]
   },
   { 
     "id":13,
     "name":"火山",
     "explain":"両面折り紙がなかったので茶色の紙と赤い紙を合わせて作りました笑。マグマが溢れ出している感じが出したかったので山の地肌が少なくなりました。マグマで大惨事ですね。",
-    "photo1":"photo/origami/Volcano1.JPG",
-    "photo2":"photo/origami/Volcano2.JPG",
-    "photo3":"photo/origami/Volcano3.JPG",
-    "photo4":"photo/origami/Volcano4.JPG",
-    "photo5":"photo/origami/Volcano5.JPG"
+    "photo": [
+      "photo/origami/Volcano1.JPG",
+      "photo/origami/Volcano2.JPG",
+      "photo/origami/Volcano3.JPG",
+      "photo/origami/Volcano4.JPG",
+      "photo/origami/Volcano5.JPG"
+    ]
   }
 ]

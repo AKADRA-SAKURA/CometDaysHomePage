@@ -1,12 +1,17 @@
 $(function() {
   $.getJSON("json/gallery.json" , function(data) {
     var
-      ulObj = $("#GalleryContainer"),
+      Object = $("#GalleryContainer"),
       len = data.length,
-      boxbefore = '<div class="box"><div class="swiper-container"><div class="swiper-wrapper">',
-      boxafter = '</div><div class="swiper-pagination"></div></div></div>';
+      box = '<div class="box"><div class="swiper-container"><div class="swiper-wrapper" id="SwiperWrapper'
+      boxafter = '"></div></div><div class="swiper-pagination"></div></div>';
     for(var i = 0; i < len; i++) {
-      ulObj.append($(boxbefore + '<div class="swiper-slide"><img src="' + data[i].photo1 + '" width="200" height="200" alt="" title="' +data[i].name+ '"></div>' + boxafter));
+      Object.append(box + data[i].id + boxafter);
+      var photo2 = data[i].photo,
+          len2 = photo2.length;
+      for(var j = 0; j < len2; j++) {
+        $("#SwiperWrapper" + data[i].id).append($('<div class="swiper-slide"><img src="' + data[i].photo[j] + '" width="200" height="200" alt="" title="' +data[i].name+ '"></div>'));
+      }
     }
   });
 });
