@@ -53,9 +53,11 @@ $(function() {
       $('.swiper-wrapper').on('click', function(){
         var id =  $(this).attr("id");
         var i = $(this).attr("data-id");
+        var contents = $("#modalContents");
         $("#" + id).click(function(){
-          var contents = $("#modalContents");
           $.when(
+            $('p').remove(),
+            $('h1').remove(),
             contents.append("<h1>" + data[i-1].name + "</h1>"),
             contents.append("<p>" + data[i-1].explain + "</p>"),
           ).done(function(){
@@ -65,10 +67,12 @@ $(function() {
       });
     });
     $('#closeModal , #modalBg').click(function(){
+      var c = $("#modalContents");
       $.when(
         $('#modalArea').fadeOut(),
       ).done(function(){
-        $('#modalContents').empty();
+        $('p').remove();
+        $('h1').remove();
       });
     });
   }).fail(function(){
