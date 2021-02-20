@@ -5,9 +5,10 @@ $(function() {
         Object = $("#GalleryContainer"),
         len = data.length,
         box = '<div class="box"><div class="swiper-container"><div class="swiper-wrapper" id="SwiperWrapper'
-        boxafter = '"></div></div></div>';
+        boxcenter = '" data-id='
+        boxafter = '></div></div></div>';
       for(var i = 0; i < len; i++) {
-        Object.append(box + data[i].id + boxafter);
+        Object.append(box + data[i].id + boxcenter + data[i].id + boxafter);
         var photo2 = data[i].photo,
             len2 = photo2.length;
         for(var j = 0; j < len2; j++) {
@@ -47,10 +48,32 @@ $(function() {
       }
       },
       });
+  }).done(function(){
+    $.getJSON("json/gallery.json" , function(data) {
+      $('.swiper-wrapper').on('click', function(){
+        var id =  $(this).attr("id");
+        var i = $(this).attr("data-id");
+        $("#" + id).click(function(){
+          var contents = $("#modalContents");
+          $.when(
+            contents.append("<h1>" + data[i-1].name + "</h1>"),
+            contents.append("<p>" + data[i-1].explain + "</p>"),
+          ).done(function(){
+            $('#modalArea').fadeIn();
+          });
+        });
+      });
+    });
+    $('#closeModal , #modalBg').click(function(){
+      $.when(
+        $('#modalArea').fadeOut(),
+      ).done(function(){
+        $('#modalContents').empty();
+      });
+    });
   }).fail(function(){
       alert("Error");
   });
-
 });
 
 
