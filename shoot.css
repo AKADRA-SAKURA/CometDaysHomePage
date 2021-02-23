@@ -107,3 +107,7 @@ img[src$="photo/shootphoto.png"]{
     margin: 0 0 0 5%;
     color: white;
 }
+
+.directer{
+    text-align: right;
+}

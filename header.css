@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+.home{
+    width: 5%;
+    height: 5%;
+}
+
 /* Curl effects – curls corners on hover */
 .paper-curl:before, .paper-curl:after,
 .paper-curl-right:before,
