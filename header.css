@@ -1,8 +1,7 @@
 @charset "UTF-8";
-
 .home{
-    width: 5%;
-    height: 5%;
+    width: 7%;
+    height: 7%;
 }
 
 .paper-curl:before, .paper-curl:after,
@@ -58,3 +57,10 @@
   border-radius: 0 0 40% 0 / 0 0 30% 0;
 }
 /*# sourceMappingURL=header.css.map */
+
+@media screen and (max-width: 480px) {
+  .home{
+    width: 10%;
+    height: 10%;
+  }
+}

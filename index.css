@@ -2,7 +2,6 @@ html, body{
     height: auto;
     width: 100%;
     margin: 0 0 0 0;
-    padding: 50px 0 50px 0;
     font-family: 'Makinas';
     font-size: 16px;
 }
@@ -10,6 +9,10 @@ html, body{
 header{
     z-index: 10;
     position: fixed;
+}
+
+html{
+    padding: 0;
 }
 
 body { 
@@ -23,6 +26,7 @@ body {
 }
 
 main{
+    padding: 100px 0 100px 0;
     margin: 0% 8% 0% 8%;
 }
 
@@ -118,12 +122,13 @@ footer{
 }
 
 @media screen and (max-width: 480px) {
-    html, body{
-        padding: 10% 5% 0 5%;        
+    html{
+        padding: 0;    
     }
 
     main{
         width: 100%;
+        padding: 20% 5% 20% 5%;
         margin: 0 0 0 0;
     }
 
