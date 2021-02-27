@@ -8,12 +8,6 @@
     margin: 0 0 50px 0;
 }
 
-.past-member{
-    margin: 0 0 50px 0;
-    padding: 20px 0 0 0;
-    flex-direction: row;
-}
-
 .member-container{
     border: 1px solid;
     width: 20%;
@@ -30,4 +24,26 @@ hr{
     background-color: black;
   }
 
-
+@media screen and (max-width: 959px) {
+    .member{
+        flex-direction: initial;
+        display: flex;
+    }
+    .now-member{
+        flex-direction: initial;
+        margin: 0 0 50px 0;
+    }
+    .member-container{
+        border: 1px solid;
+        width: 100%;
+        float: left;
+        margin: 10px 10px 0 10px;
+        padding: 3%;
+    }
+    .name{
+        font-size: 25px;
+    }
+    hr{
+        background-color: black;
+      }
+}

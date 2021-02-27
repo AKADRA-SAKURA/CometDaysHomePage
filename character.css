@@ -7,17 +7,6 @@ main{
     height: 500px;
 }
 
-.line{
-    margin: 10px 0 20px 0;
-    padding: 10px 0 10px 0;
-    display: block;
-    border: 0;
-    width: 100%;
-    height: 50px;
-    background: url("photo/shoot/item.png") repeat-x top center;
-    background-size: 3%;
-}
-
 .shounen{
     padding: 0 0 20px 0;
     display: flex;
@@ -26,10 +15,12 @@ main{
     column-rule: 1px solid #cdcdcd;
     column-gap: 2em;  
 }
+
 .shounen-shoukai{
     float: left;
     flex-direction: row;
 }
+
 .anoko{
     padding: 0 0 20px 0;
     display: flex;
@@ -38,9 +29,11 @@ main{
     column-rule: 1px solid #cdcdcd;
     column-gap: 2em;
 }
+
 .anoko-shoukai{
     float: left;
 }
+
 .tsurukichi{
     display: flex;
     flex-direction: row;
@@ -48,6 +41,30 @@ main{
     column-rule: 1px solid #cdcdcd;
     column-gap: 2em;  
 }
+
 .tsurukichi-shoukai{
     float: left;
+}
+
+@media screen and (max-width: 480px) {
+    .swiper-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .shounen{
+        padding: 0 0 0 0;
+        flex-direction: column;
+    }
+
+    .anoko{
+        padding: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tsurukichi{
+        flex-direction: column;
+    }
+
 }

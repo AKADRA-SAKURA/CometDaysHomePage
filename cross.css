@@ -2,32 +2,13 @@
     text-align: center;
 }
 
-.line{
-    margin: 20px 0 20px 0;
-    padding: 10px 0 10px 0;
-    display: block;
-    border: 0;
-    width: 100%;
-    height: 50px;
-    background: url("photo/shoot/item.png") repeat-x top center;
-    background-size: 3%;
-}
-
 .waku{
     margin: 20px 0px 20px 0;
-}
-
-.midashi{
-    font-size: 30px;
-    background-image: url(photo/shoot/button_menu.png);
-    background-size: 100% 100%;
-    padding: 2% 1.5% 2% 1.5%;
 }
 
 .shoukai1 {
     margin: 10px 0px 10px 0px;
     flex-direction: row;
-/*     display: flex; */
     columns: 2;
     column-rule: 1px solid #cdcdcd;
     column-gap: 2em;
@@ -104,4 +85,46 @@
 
 .directer{
     text-align: right;
+}
+
+@media screen and (max-width: 480px) {
+    .waku{
+        margin: 0;
+    }
+    iframe{
+        width: 100%;
+        height: auto;
+    }
+
+    .shoukai1 {
+        flex-direction: column;
+        columns: 1;
+    }
+    
+    .shoukai2{
+        margin: 10px 0px 20px 0px;
+        flex-direction: column;
+        columns: 1;
+    }
+    .shoukai-bun1{
+        flex-direction: column;
+    }
+    
+    .shoukai-bun2{
+        flex-direction: column;
+    }
+
+    .download-container{
+        padding: 20px 20px 20px 20px;
+    }
+    
+    .download-container img {
+        display: none;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: auto;
+    }
+    
 }
