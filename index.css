@@ -40,13 +40,19 @@ main{
     margin-left: 10px;
 }
 
+.contentsLib{
+    height: fit-content;
+    flex-direction: row;
+    columns: 2;
+}
+
 .twitter{
     text-align: right;
     margin-right: 5px;
 }
 
 .contents{
-    width: 50%;
+    width: 100%;
     height: auto;
     margin-top: 5px;
     margin-bottom: 5px;

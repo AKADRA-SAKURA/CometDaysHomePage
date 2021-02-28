@@ -38,12 +38,12 @@ $(function() {
       breakpoints: {
       // 980ピクセル幅以下になったら
       980: {
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 30
       },
       // 640ピクセル幅以下になったら
       640: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 20
       }
       },
