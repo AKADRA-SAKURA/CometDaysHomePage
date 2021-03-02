@@ -18,7 +18,7 @@ var mySwiper = new Swiper ('.swiper-container', {
     // レスポンシブ化条件
     breakpoints: {
     // 980ピクセル幅以下になったら
-    980: {
+    1100: {
       slidesPerView: 1,
       spaceBetween: 30
     },

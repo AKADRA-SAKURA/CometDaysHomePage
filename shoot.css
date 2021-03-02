@@ -93,7 +93,7 @@ img[src$="photo/shootphoto.png"]{
     text-align: right;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1100px) {
     .waku{
         margin: 0;
     }
