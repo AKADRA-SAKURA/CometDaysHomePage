@@ -63,6 +63,14 @@ main{
         flex-direction: column;
     }
 
+    .anoko-shoukai{
+        order: 2;
+    }
+
+    .anoko .swiper-container{
+        order: 1;
+    }
+
     .tsurukichi{
         flex-direction: column;
     }

@@ -104,8 +104,18 @@
     .shoukai2{
         margin: 10px 0px 20px 0px;
         flex-direction: column;
+        display: flex;
         columns: 1;
     }
+    
+    .shoukai2 .shoukai-bun2{
+        order: 2;
+    }
+
+    .shoukai2 .image{
+        order: 1;
+    }
+
     .shoukai-bun1{
         flex-direction: column;
     }
