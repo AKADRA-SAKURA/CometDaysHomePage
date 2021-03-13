@@ -2,10 +2,27 @@
     text-align: center;
 }
 
+.title img{
+    width: 50%;
+    height: auto;
+}
+
 .waku{
     margin: 20px 0px 20px 0;
 }
 
+.Play{
+    text-align: center;
+}
+
+.Play img{
+    width: 50%;
+    height: auto;
+}
+
+.Play img:hover{
+    cursor: pointer;
+}
 
 .shoukai1 {
     margin: 10px 0px 10px 0px;
@@ -42,6 +59,8 @@
 
 .movie{
     text-align: center;
+    height: 405px;
+    padding: 0 20% 0 20%;
 }
 
 .swiper-container {
@@ -86,6 +105,72 @@
 .directer{
     text-align: right;
 }
+
+/* モーダルCSS */
+.modalArea {
+    display: none;
+    position: fixed;
+    z-index: 15; /*サイトによってここの数値は調整 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .modalBg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30,30,30,0.9);
+  }
+  
+  .modalWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 100%;
+    height: 536.25px;
+    max-width: 900px;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  .closeModal {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  
+  /* 以下ボタンスタイル */
+  button {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #282828;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  #openModal {
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+  }
+
+  .game{
+    text-align: center; 
+    margin: auto; 
+    width: 900px; 
+    height: 506.25px; 
+    margin-top:30px; 
+    border: 5px double #333333;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
 
 @media screen and (max-width: 1100px) {
     .waku{

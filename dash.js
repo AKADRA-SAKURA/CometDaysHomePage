@@ -45,3 +45,8 @@ var mySwiper = new Swiper ('.swiper-container', {
     el: '.swiper-scrollbar', // スクロールバーを表示するセレクタ
     }
     });
+
+    $('.Play').on('click', function(){
+      var contents = $("#modalContents");
+      $('#modalArea').fadeIn();
+    });
