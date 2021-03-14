@@ -46,7 +46,14 @@ var mySwiper = new Swiper ('.swiper-container', {
     }
     });
 
-    $('.Play').on('click', function(){
-      var contents = $("#modalContents");
-      $('#modalArea').fadeIn();
-    });
+$('.Play').on('click', function(){
+  var contents = $("#modalContents");
+  $('#modalArea').fadeIn();
+});
+
+$('#closeModal').on('click', function(){
+  var src = $(".iframe-inner").attr("src");
+  $(".iframe-inner").attr("src","");
+  $(".iframe-inner").attr("src",src);
+  $('#modalArea').fadeOut();
+});

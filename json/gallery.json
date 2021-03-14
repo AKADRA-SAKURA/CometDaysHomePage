@@ -31,7 +31,7 @@
     "explain":"ドラゴンやコウモリでも翼はありましたが、鳥類の翼にしたく紙のヒダを集めて折りました。<br>正面から見るのが一番鳥感があって好きです笑。",
     "photo": [
       "photo/origami/taka1.JPG",
-      "photo/origami/taka2.JPG",
+      "photo/origami/taka2.jpg",
       "photo/origami/taka3.JPG"
     ]
   },
@@ -48,8 +48,8 @@
     "name":"ドラゴン",
     "explain":"鳥に見えないように頭をドラゴンっぽくすることでドラゴンにしようとしましたが足りなかった翼もいじりました。",
     "photo": [
-      "photo/origami/Dragon1.JPG",
-      "photo/origami/Dragon2.JPG"
+      "photo/origami/dragon1.JPG",
+      "photo/origami/dragon2.JPG"
     ]
 
   },
@@ -67,7 +67,7 @@
     "name":"飛行機1",
     "explain":"鳥型の飛行機を目指しました。<br>鳥は翼が大きいので機体は縦が短く横に長いです。",
     "photo": [
-      "photo/origami/Plane1.JPG"
+      "photo/origami/Plane1.jpg"
     ]
   },
   { 
@@ -75,7 +75,7 @@
     "name":"飛行機2",
     "explain":"大砲付き戦闘機型飛行機です。<br>大砲がデカくなりすぎたなんて言ってはいけない。",
     "photo": [
-      "photo/origami/Plane2.JPG"
+      "photo/origami/Plane2.jpg"
     ]
   },
   { 
@@ -83,8 +83,8 @@
     "name":"飛行機R",
     "explain":"RAKUPA用の機体です。<br>少しステルス戦闘機を意識しました。",
     "photo": [
-      "photo/origami/PlaneR1.JPG",
-      "photo/origami/PlaneR2.JPG"
+      "photo/origami/PlaneR1.jpg",
+      "photo/origami/PlaneR2.jpg"
     ]
   },
   { 
@@ -92,7 +92,7 @@
     "name":"プロペラ",
     "explain":"伝承作品の手裏剣が使えそうだとすぐに頭に浮かびましたが、手裏剣をそのままプロペラに採用するのは芸がないので手裏剣を埋め込んでみました。",
     "photo": [
-      "photo/origami/Propeller.JPG"
+      "photo/origami/Propeller.jpg"
     ]
   },
   { 
@@ -100,7 +100,7 @@
     "name":"渦",
     "explain":"この中では珍しく複数枚紙を使った作品です。<br>回転している感じと渦の中心をどうやって表現しようかと考えたときに、穴を開けるという発想に至りました。<br>紙に穴を開けるのも何なので紙を複数枚組み合わせました。",
     "photo": [
-      "photo/origami/Swirl.JPG"
+      "photo/origami/Swirl.jpg"
     ]
   },
   { 
@@ -108,11 +108,11 @@
     "name":"火山",
     "explain":"両面折り紙がなかったので茶色の紙と赤い紙を合わせて作りました笑。<br>マグマが溢れ出している感じが出したかったので山の地肌が少なくなりました。マグマで大惨事ですね。",
     "photo": [
-      "photo/origami/Volcano1.JPG",
-      "photo/origami/Volcano2.JPG",
-      "photo/origami/Volcano3.JPG",
-      "photo/origami/Volcano4.JPG",
-      "photo/origami/Volcano5.JPG"
+      "photo/origami/Volcano1.jpg",
+      "photo/origami/Volcano2.jpg",
+      "photo/origami/Volcano3.jpg",
+      "photo/origami/Volcano4.jpg",
+      "photo/origami/Volcano5.jpg"
     ]
   }
 ]
