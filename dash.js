@@ -48,12 +48,11 @@ var mySwiper = new Swiper ('.swiper-container', {
 
 $('.Play').on('click', function(){
   var contents = $("#modalContents");
+  $(".iframe-inner").attr("src","https://object-storage.tyo1.conoha.io/v1/nc_df3bdbc45bc04950b558834f5728517a/unityroom_production/game/19518/webgl/play.html");
   $('#modalArea').fadeIn();
 });
 
 $('#closeModal').on('click', function(){
-  var src = $(".iframe-inner").attr("src");
   $(".iframe-inner").attr("src","");
-  $(".iframe-inner").attr("src",src);
   $('#modalArea').fadeOut();
 });
